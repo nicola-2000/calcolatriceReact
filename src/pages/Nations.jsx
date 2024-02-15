@@ -39,7 +39,7 @@ function Nations() {
                     description={nation.description}
                     id={nation.id}>
                     </NationCard>
-                ))}
+                ))} 
             </div>
         </div>
         </>

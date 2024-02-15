@@ -55,10 +55,10 @@ function Calcolatrice() {
   return (
     <>
       <Navbar/>
-      <header className='bg-slate-700 text-white text-3xl font-extrabold mt-4 rounded-md'>
+      <header className='bg-slate-700 text-white text-3xl font-extrabold mt-4 rounded-t-md'>
         <h1>Calcolatrice con React</h1>
       </header>
-      <div className='flex flex-col gap-3 p-4 border-zinc-700 border-2 rounded-md h-auto w-auto'>
+      <div className='flex flex-col gap-3 p-4 border-zinc-700 border-2 rounded-b-md h-auto w-auto'>
         <input 
         placeholder='Input utente'
         className='border-2 border-zinc-500'

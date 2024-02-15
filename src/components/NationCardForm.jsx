@@ -53,7 +53,7 @@ return(
                 type="number"
                 value={formData.id || ''}
                 name="id"
-                placeholder="Nome nazione" 
+                placeholder="ID nazione (> 0)" 
                 /* onChange={(e) => setNationName(e.target.value)} */
                 onChange={handleInputChange}
             />
@@ -62,7 +62,7 @@ return(
             {/*input per la bandiera della nazione*/}
             <input 
                 className="w-fit"
-                type="text"
+                type="textarea"
                 value={formData.imgURL || ''}
                 name="imgURL"
                 placeholder="URL immagine"
