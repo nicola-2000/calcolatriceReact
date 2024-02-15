@@ -31,14 +31,16 @@ function Nations() {
 
             <div className="grid grid-cols-3">
                 {nations.map((nation, index) => (
-                    <NationCard
-                    key={index}
-                    value={nation}
-                    name={nation.name}
-                    imgURL={nation.imgURL}
-                    description={nation.description}
-                    id={nation.id}>
-                    </NationCard>
+                    <div className="m-2">
+                        <NationCard
+                        key={index}
+                        value={nation}
+                        name={nation.name}
+                        imgURL={nation.imgURL}
+                        description={nation.description}
+                        id={nation.id}>
+                        </NationCard>
+                    </div>
                 ))} 
             </div>
         </div>
