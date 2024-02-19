@@ -1,4 +1,4 @@
-import { Card, CardActions, CardContent, Typography, CardMedia, CardHeader } from "@mui/material";
+import { Card, CardContent, Typography, CardMedia, CardHeader } from "@mui/material";
 
 function NationCard({name, imgURL, description, id}){
 
